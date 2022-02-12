@@ -1,0 +1,81 @@
+@media only screen and (min-width: 1200px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+
+    .productive{
+        display: flex;
+        padding: 50px;
+        margin-top: 100px;
+    }
+
+    .productive_team{
+        width: 600px;
+        margin-right: 100px;
+    }
+
+    .about_productive{
+        text-align: left;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 180px;
+    }
+
+    .productive_description{
+        color: rgb(97, 228, 186);
+    }
+
+    span:hover{
+        color: rgb(97, 228, 186);
+        border-bottom: solid;
+        border-width: 1px;
+        transition: 1s;
+    }
+
+    .span_icon{
+        transform: rotate(90deg);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        width: 100%;
+        height: 100%;
+    }
+    .productive{
+        width: 100%;
+        display: block;
+        padding: 50px;
+        margin-top: 50px;
+        text-align: center;
+    }
+
+    .productive_team{
+        width: 250px;
+        margin: auto auto;
+        margin-bottom: 10px;
+    }
+
+    .about_productive{
+        text-align: left;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+    }
+
+    .productive_description{
+        color: rgb(97, 228, 186);
+    }
+
+    span{
+        color: rgb(97, 228, 186);
+        border-bottom: solid;
+        border-width: 1px;
+        transition: 1s;
+    }
+
+    .span_icon{
+        transform: rotate(90deg);
+    }
+}

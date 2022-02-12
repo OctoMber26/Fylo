@@ -1,0 +1,118 @@
+@media only screen and (min-width: 1200px){
+    .rewievs{
+        display: flex;
+        width: 100%;
+        margin: auto auto;
+    }
+
+    .Satish{
+        width:600px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .rewies{
+        color: white;
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        text-align: left;
+    }
+
+    .ceos{
+       width: 60px;
+       border-radius: 50px;
+       display: flex;
+       margin-top: 40px;
+       margin-left: 30px;
+    }
+
+    .ceos_name{
+        margin-top: -50px;
+        color: white;
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .status{
+        color: white;
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .Bruce{
+        width: 600px;
+        padding: 30px;
+        border-radius: 10px;
+    } 
+
+    .Iva{
+        width: 600px;
+        padding: 30px;
+        border-radius: 10px;
+    }
+
+    .quotes_up{
+     margin-top: -30px;
+    }
+
+    .quotes_down{
+       transform: rotate(180deg);
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .rewievs{
+        width: 100%;
+        margin: auto auto;
+        text-align: center;
+    }
+
+    .rewies{
+        color: white;
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    .ceos{
+        width: 60px;
+        border-radius: 50px;
+        margin-top: 20px;
+     }
+     .quotes_down{
+        transform: rotate(180deg);
+        
+     }
+
+     .quotes_up{
+        margin-top: -20px;
+    }
+
+     .Satish{
+         width: 300px;
+         margin: auto auto;
+    }
+
+    .ceos_name{
+        color: rgb(97, 228, 186);
+        font-size: 20px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-top: 10px;
+    }
+
+    .status{
+        color: rgb(97, 228, 186);
+        font-size: 15px;
+        font-family: 'Josefin Sans', sans-serif;
+        margin-bottom: 30px;
+    }
+
+    .Bruce{
+        width: 300px;
+         margin: auto auto;
+    } 
+
+    .Iva{
+        width: 300px;
+        margin: auto auto;
+    }
+}

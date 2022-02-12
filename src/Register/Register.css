@@ -1,0 +1,89 @@
+@media only screen and (min-width: 1200px){
+    .register{
+        position: relative;
+        z-index: 1;
+        width: 60%;
+        height: 200px;
+        background-color: rgb(42, 42, 61);
+        text-align: center;
+        margin: auto auto;
+        border-radius: 10px;
+        margin-top: 100px;
+        padding: 30px;
+        -webkit-box-shadow: -1px 7px 10px 3px rgba(0,0,0,0.72); 
+        box-shadow: -1px 7px 10px 3px rgba(0,0,0,0.72);
+    }
+
+     .ready{
+        font-size: 30px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    input{
+    width: 400px;
+    margin-right: 50px;
+    padding: 5px;
+    border-radius: 30px;
+    border-style: none;
+   
+    }
+
+    input:focus{
+        outline: none;
+    }
+
+   .start{
+        width: 200px;
+        background: linear-gradient(90deg, rgba(10,142,134,1) 9%, rgba(198,228,255,1) 35%, rgba(29,178,208,1) 100%);
+        color: white;
+        padding: 10px;
+        border-radius: 30px;
+        border-style: none;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    .register{
+        position: relative;
+        z-index: 1;
+        width: 80%;
+        height: 250px;
+        background-color: rgb(42, 42, 61);
+        text-align: center;
+        margin: auto auto;
+        border-radius: 10px;
+        padding: 30px;
+        -webkit-box-shadow: -1px 7px 10px 3px rgba(0,0,0,0.72); 
+        box-shadow: -1px 7px 10px 3px rgba(0,0,0,0.72);
+    }
+
+    .ready{
+        font-size: 30px;
+        color: white;
+        font-family: 'Josefin Sans', sans-serif;
+    }
+
+    input{
+        width: 200px;
+        padding: 5px;
+        border-radius: 30px;
+        border-style: none;
+        margin: auto auto;
+        margin-bottom: 20px;
+       
+        }
+    
+        input:focus{
+            outline: none;
+        }
+
+        .start{
+            width: 200px;
+            background: linear-gradient(90deg, rgba(10,142,134,1) 9%, rgba(198,228,255,1) 35%, rgba(29,178,208,1) 100%);
+            color: white;
+            padding: 10px;
+            border-radius: 30px;
+            border-style: none;
+        }
+}
